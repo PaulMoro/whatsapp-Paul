@@ -1,3 +1,3 @@
-# whatsapp-Paul
+# reduxClass
 
-Project about do to similar Whatsapp desktop with three APIS and make with React
+This repository is about Redux and Roouter for React.js. Course in PLatzi.com

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Carrusel = () => (
+const Carrusel = () => {
+  return(
   <div className="carrusel">
     <img src="" alt=""/>
     <div className="name">
@@ -11,6 +12,6 @@ const Carrusel = () => (
       <img src="" alt=""/>
     </div>
   </div>
-);
+);}
 
 export default Carrusel;

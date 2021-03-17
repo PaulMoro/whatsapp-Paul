@@ -1,18 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-/* components */
-import Climate from './components/climate';
-import Carrusel from './components/carrusel';
-import Chat from './components/chats'
+import App from './container/App';
 
 ReactDOM.render(
     <>
-      <div className="main">
-        <Carrusel />
-        <Chat />
-      </div>
-      <Climate />
+      <App/>
     </>,
   document.getElementById('app')
 );

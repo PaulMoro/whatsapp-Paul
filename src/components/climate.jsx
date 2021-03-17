@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+/* Style */
+import '../assets/styleContainers/Climate.scss'
+
 const Climate = () => {
   const preApi = {
     "coord": {
@@ -69,7 +72,7 @@ const Climate = () => {
       <h2>{weather.sys.country}</h2>
     </div>
     <div className="weather">
-      <h2 id='seis'>{weather.main.temp}°</h2>
+      <h2>{weather.main.temp}°</h2>
       <button>Grados F/C</button>
     </div>
   </div>

@@ -1,0 +1,31 @@
+@import "../styleGlobal/Vars.scss";
+
+.climate {
+  width: 100%;
+  padding: 1rem 3rem;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $secon-color;
+}
+
+.city h2 {
+  padding-left: 40%;
+  font-size: 15px;
+}
+
+.weather h2 {
+  padding-left: 30%;
+}
+
+.weather button {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: $main-color;
+  border-radius: 6px;
+  border: 2px solid #70D798;
+}
